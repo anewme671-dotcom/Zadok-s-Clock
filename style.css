@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; /* Pure black */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 60px;
+    color: #4CAF50; /* Hacker green */
+    text-shadow: 0 0 20px #4CAF50; /* The glow effect */
+}
+
